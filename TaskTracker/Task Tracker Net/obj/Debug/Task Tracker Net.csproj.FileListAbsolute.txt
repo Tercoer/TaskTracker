@@ -1,0 +1,22 @@
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\Task Tracker Net.exe.config
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\Task Tracker Net.exe
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\Task Tracker Net.pdb
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Buffers.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Memory.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Text.Json.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.ValueTuple.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Buffers.xml
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Memory.xml
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.csproj.AssemblyReference.cache
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.csproj.CoreCompileInputs.cache
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tra.A1544287.Up2Date
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.exe
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.pdb
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.csproj.SuggestedBindingRedirects.cache
+C:\Users\Windows\source\personal projects\TaskTracker\TaskTracker\Task Tracker Net\obj\Debug\Task Tracker Net.exe.config

@@ -1,7 +1,20 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Windows\\source\\personal projects\\Task Tracker Net\\",
-  "Documents": [],
+  "WorkspaceRootPath": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB22032-2241-44B5-927A-75B143682CD6}|Task Tracker Net\\Task Tracker Net.csproj|C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\task tracker net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB22032-2241-44B5-927A-75B143682CD6}|Task Tracker Net\\Task Tracker Net.csproj|solutionrelative:task tracker net\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\tasks\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Task Tracker Net\\tasks\\tasks.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FAB22032-2241-44B5-927A-75B143682CD6}|Task Tracker Net\\Task Tracker Net.csproj|c:\\users\\windows\\source\\personal projects\\tasktracker\\tasktracker\\task tracker net\\model\\tasktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FAB22032-2241-44B5-927A-75B143682CD6}|Task Tracker Net\\Task Tracker Net.csproj|solutionrelative:task tracker net\\model\\tasktracker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 1,
@@ -9,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 23,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,6 +107,45 @@
             {
               "$type": "Bookmark",
               "Name": "ST:137:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "tasks.json",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\tasks\\tasks.json",
+              "RelativeDocumentMoniker": "Task Tracker Net\\tasks\\tasks.json",
+              "ToolTip": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\tasks\\tasks.json",
+              "RelativeToolTip": "Task Tracker Net\\tasks\\tasks.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-08-20T23:52:17.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TaskTracker.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\Model\\TaskTracker.cs",
+              "RelativeDocumentMoniker": "Task Tracker Net\\Model\\TaskTracker.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\Model\\TaskTracker.cs",
+              "RelativeToolTip": "Task Tracker Net\\Model\\TaskTracker.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T18:40:12.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\Program.cs",
+              "RelativeDocumentMoniker": "Task Tracker Net\\Program.cs",
+              "ToolTip": "C:\\Users\\Windows\\source\\personal projects\\TaskTracker\\TaskTracker\\Task Tracker Net\\Program.cs",
+              "RelativeToolTip": "Task Tracker Net\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-20T18:39:43.325Z",
+              "EditorCaption": ""
             }
           ]
         }

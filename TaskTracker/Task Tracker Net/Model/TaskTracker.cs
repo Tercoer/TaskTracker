@@ -13,7 +13,7 @@ namespace Task_Tracker_Net.Model {
         public static bool CreateTask(ModelTask task) {
             string currentDirectory = Directory.GetCurrentDirectory();// + "\\tasks\\tasks.json";
             string jsonPath = Path.GetDirectoryName(Path.GetDirectoryName(currentDirectory)) + "\\tasks\\tasks.json";
-           
+
             bool fileExist = File.Exists(jsonPath);
             List<ModelTask> tasks = new List<ModelTask>();
 
@@ -21,8 +21,10 @@ namespace Task_Tracker_Net.Model {
                 string file = File.ReadAllText(jsonPath);
                 tasks = JsonSerializer.Deserialize<List<ModelTask>>(file);
             }
-
-            task.id = tasks.Max(t => t.id) + 1;
+            if(tasks.Count == 0)
+                task.id = 1;
+            else
+                task.id = tasks.Max(t => t.id) + 1;
             tasks.Add(task);
             string serialized = JsonSerializer.Serialize(tasks);
             File.WriteAllText(jsonPath, serialized);
@@ -41,14 +43,16 @@ namespace Task_Tracker_Net.Model {
 
             List<ModelTask> tasks = JsonSerializer.Deserialize<List<ModelTask>>(file);
 
-            if(tasks == null || tasks.Count == 0) 
+            if(tasks == null || tasks.Count == 0)
                 return false;
-            
+
             int index = tasks.FindIndex(x => x.id == task.id);
 
             if(index < 0)
                 return false;
 
+            task.createdAt = tasks[index].createdAt;
+            task.taskStatus = tasks[index].taskStatus;
             tasks[index] = task;
 
             string serialized = JsonSerializer.Serialize(tasks);
@@ -57,7 +61,7 @@ namespace Task_Tracker_Net.Model {
             return true;
         }
 
-        public static bool RemoveTask(ModelTask task) {
+        public static bool UpdateStatusTask(int id, TaskStatus status) {
             string currentDirectory = Directory.GetCurrentDirectory();// + "\\tasks\\tasks.json";
             string jsonPath = Path.GetDirectoryName(Path.GetDirectoryName(currentDirectory)) + "\\tasks\\tasks.json";
 
@@ -71,7 +75,37 @@ namespace Task_Tracker_Net.Model {
             if(tasks == null || tasks.Count == 0)
                 return false;
 
-            int index = tasks.FindIndex(x => x.id == task.id);
+            int index = tasks.FindIndex(x => x.id == id);
+
+            if(index < 0)
+                return false;
+            ModelTask task = tasks[index];
+            task.taskStatus = status;
+            task.updatedAt = DateTime.Now;
+
+            tasks[index] = task;
+
+            string serialized = JsonSerializer.Serialize(tasks);
+            File.WriteAllText(jsonPath, serialized);
+
+            return true;
+        }
+
+        public static bool RemoveTask(int id) {
+            string currentDirectory = Directory.GetCurrentDirectory();// + "\\tasks\\tasks.json";
+            string jsonPath = Path.GetDirectoryName(Path.GetDirectoryName(currentDirectory)) + "\\tasks\\tasks.json";
+
+            if(!File.Exists(jsonPath))
+                return false;
+
+            string file = File.ReadAllText(jsonPath);
+
+            List<ModelTask> tasks = JsonSerializer.Deserialize<List<ModelTask>>(file);
+
+            if(tasks == null || tasks.Count == 0)
+                return false;
+
+            int index = tasks.FindIndex(x => x.id == id);
 
             if(index < 0)
                 return false;
@@ -84,10 +118,10 @@ namespace Task_Tracker_Net.Model {
             return true;
         }
 
-        public static List<ModelTask> GetTasks(ModelTask task) {
+        public static List<ModelTask> GetTasks() {
             string currentDirectory = Directory.GetCurrentDirectory();// + "\\tasks\\tasks.json";
             string jsonPath = Path.GetDirectoryName(Path.GetDirectoryName(currentDirectory)) + "\\tasks\\tasks.json";
-            
+
             if(!File.Exists(jsonPath))
                 return null;
 
@@ -102,7 +136,7 @@ namespace Task_Tracker_Net.Model {
 
     public enum TaskStatus {
         TODO = 0,
-        IN_PROGRESS = 1, 
+        IN_PROGRESS = 1,
         DONE = 2
     }
 
